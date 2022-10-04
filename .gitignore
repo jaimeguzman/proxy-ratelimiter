@@ -1,0 +1,44 @@
+.DS_Store
+*.env
+.env*
+*.pyc
+*.pyo
+/env/
+/env*
+dist/
+build/
+*.egg
+*.egg-info/
+_mailinglist
+.tox/
+.cache/
+.pytest_cache/
+.idea/
+docs/_build/
+.vscode
+__pycache__/
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+*,cover
+
+# Python3 Venv Files
+.venv/
+bin/
+include/
+lib/
+lib64
+pyvenv.cfg
+share/
+venv/
+env/
+penv/
+penv
+
+# MyPy
+.mypy_cache/
+
+# Secrets
+.secrets.baseline
